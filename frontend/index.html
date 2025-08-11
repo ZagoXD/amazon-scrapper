@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <script type="module" src="/src/main.js"></script>
+    <link rel="stylesheet" href="/src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Search Scraper</title>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Amazon Search Scraper</h1>
+        <p class="muted">Enter a keyword to fetch the first-page results (title, rating, reviews, image).</p>
+      </header>
+
+      <section class="controls">
+        <input id="keyword" type="text" placeholder="e.g. ipad" />
+        <button id="searchBtn">Search</button>
+      </section>
+
+      <section id="status" class="status" aria-live="polite"></section>
+
+      <section id="results" class="grid" aria-live="polite"></section>
+
+      <footer class="footnote">
+        <small>This demo is for educational use only. Respect websites' Terms of Service.</small>
+      </footer>
+    </main>
+  </body>
+  </html>
