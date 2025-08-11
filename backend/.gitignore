@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# Environments
+.env
+
+# Cache and build
+dist/
+build/
+.cache/
+.tmp/
